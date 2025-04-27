@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import "./App.css"
 import{BrowserRouter as Router,Routes,Route} from "react-router-dom"
 import Home from "./Pages/Home";
@@ -22,9 +22,11 @@ const App = () => {
         setIsAuthenticated(true);
         setUser(response.data.user);
       } catch(error){
-      setIsAuthenticated(false);
-      setUser({});}
-    };
+      // setIsAuthenticated(false);
+      // setUser({});}
+      const [isLogin, setIsLogin] = useState(false);
+      setIsLogin(true);}
+        };
     fetchUser();
   },[isAuthenticated])
   return (

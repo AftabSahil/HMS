@@ -5,7 +5,6 @@
   box-sizing: border-box;
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
-  /* background-color: lightblue; */
 }
 body {
   background: #e5e5e5;
@@ -197,10 +196,15 @@ h6 {
   font-size: 24px;
   margin-bottom: 30px;
   background: linear-gradient(140deg, #9083d5, #271776ca);
+  cursor: pointer;
 }
 .form-component .wrapper {
   display: flex;
   gap: 50px;
+
+}
+.formSubmit:hover {
+  cursor:pointer;
 }
 .form-component .wrapper .banner {
   flex: 1;
@@ -218,6 +222,7 @@ h6 {
   max-width: 800px;
   text-align: center;
 }
+
 .register-form {
   max-width: 1200px;
   margin: 100px auto 20px auto;
@@ -338,6 +343,7 @@ footer .content div ul a {
 footer .content div ul a:hover {
   color: #8570ed;
   transition: 0.3s;
+  cursor:pointer;
 }
 footer .content div ul li span {
   color: gray;
@@ -472,6 +478,7 @@ nav .navLinks .links a:hover {
   color: #000;
   transition: 0.3s;
   cursor: pointer;
+  
 }
 nav .btn {
   padding: 8px 20px;
@@ -587,4 +594,17 @@ input[type="time"]:before {
 }
 footer .logo-img{
   width: 100%;
+}
+
+.loginBtn:hover {
+  cursor:pointer;
+}
+
+.logoutBtn:hover {
+  cursor:pointer;
+}
+ 
+
+body {
+  background: #b6c1ca; /* Light blue */
 }
