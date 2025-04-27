@@ -116,6 +116,15 @@ h6 {
 .animated-image {
   animation: moveUpDown 1s infinite alternate ease-in-out;
 }
+.appoointmentdiscription{
+  
+    display: flex;
+    gap: 50px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    position: relative;
+
+}
 
 @keyframes moveUpDown {
   0% {
