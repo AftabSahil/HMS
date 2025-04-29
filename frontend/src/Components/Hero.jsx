@@ -1,4 +1,5 @@
 import React from "react";
+import "./Hero.jsx";
 
 const Hero = ({ title, imageUrl }) => {
   return (
@@ -6,6 +7,7 @@ const Hero = ({ title, imageUrl }) => {
       <div className="hero container">
         <div className="banner">
           <title>{title}</title>
+          
           <p>
           Welcome to SAGS-Care Medical Institute, where cutting-edge medicine meets compassionate care. 
           We believe healthcare should be as unique as you are—which is why our team of dedicated specialists combines advanced technology with personalized attention to guide you toward optimal wellness.
