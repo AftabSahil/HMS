@@ -68,7 +68,7 @@ const Login = () => {
             onChange={(e) => setConfirmPassword(e.target.value)}
           />
           <div style={{ justifyContent: "center", alignItems: "center" }}>
-            <button type="submit">Login</button>
+          <button type="submit" style={{ cursor: "pointer" }}>Login</button>
           </div>
         </form>
       </section>
