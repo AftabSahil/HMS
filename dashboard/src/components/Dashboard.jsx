@@ -64,9 +64,11 @@ const Dashboard = () => {
                 </h5>
               </div>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Facilis, nam molestias. Eaque molestiae ipsam commodi neque.
-                Assumenda repellendus necessitatibus itaque.
+              Welcome, Administrator! This portal gives you complete control
+              over hospital operations—from patient records to doctor schedules
+              and appointments. Designed for simplicity, security, and
+              efficiency, it helps you keep healthcare delivery smooth and
+              well-organized.
               </p>
             </div>
           </div>
@@ -74,6 +76,10 @@ const Dashboard = () => {
             <p>Maximum Appointments</p>
             <h3>500</h3>
           </div>
+          {/* <div className="thirdBox">
+          <p>Registered Doctors</p>
+          <h3>{doctors.length}</h3>
+        </div>  */}
           <div className="thirdBox">
             <p>Registered Doctors</p>
             <h3>10</h3>
