@@ -3,11 +3,11 @@ import React from "react";
 const AppointmentDescription = ({ title, imageUrl }) => {
   return (
     <>
-     
+    
       <div className="hero container">
       
         <div className="banner">
-          <title>{title}</title>
+        <title>{title}</title>
 
           <p>
             <h2>Experience Effortless Booking with SAGS-Care</h2>

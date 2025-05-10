@@ -8,7 +8,6 @@ const AboutusDiscription = ({imageUrl}) => {
           <img src={imageUrl} alt="whoweare" />
         </div>
         <div className="banner">
-        <title>{title}</title>
           <p>Biography</p>
           <h3>The SAGS-Care Story: Where Revolutionary Care Meets Human Connection</h3>
           <p>
