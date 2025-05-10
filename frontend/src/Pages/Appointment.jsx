@@ -1,5 +1,4 @@
 import React from "react";
-// import Hero from "../Components/Hero";
 import AppointmentForm from "../Components/AppointmentForm";
 import AppointmentDescription from "../Components/AppointmentDiscription";
 
