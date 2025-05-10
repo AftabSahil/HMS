@@ -1,17 +1,14 @@
 import React from "react";
-import hemlet from "react-helmet";
 
 const AboutusDiscription = ({imageUrl}) => {
   return (
     <>
-    <hemlet>
-        <title>{title}</title>
-      </hemlet>
       <div className="container biography">
         <div className="banner">
           <img src={imageUrl} alt="whoweare" />
         </div>
         <div className="banner">
+        <title>{title}</title>
           <p>Biography</p>
           <h3>The SAGS-Care Story: Where Revolutionary Care Meets Human Connection</h3>
           <p>
