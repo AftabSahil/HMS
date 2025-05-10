@@ -1,5 +1,4 @@
 import React from "react";
-import hemlet from "react-helmet";
 
 const AppointmentDescription = ({ title, imageUrl }) => {
   return (
@@ -8,10 +7,7 @@ const AppointmentDescription = ({ title, imageUrl }) => {
       <div className="hero container">
       
         <div className="banner">
-         
-        <hemlet>
           <title>{title}</title>
-        </hemlet>
 
           <p>
             <h2>Experience Effortless Booking with SAGS-Care</h2>
